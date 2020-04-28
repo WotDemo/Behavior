@@ -1,4 +1,4 @@
-package ysn.com.demo.behavior;
+package ysn.com.demo.behavior.behavior;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,18 +12,18 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 /**
  * @Author yangsanning
- * @ClassName TranslucentBehavior
- * @Description 改变Toolbar背景颜色的Behavior
+ * @ClassName TransparentBehavior
+ * @Description 改变Toolbar透明度的Behavior
  * @Date 2020/4/27
  */
-public class TranslucentBehavior extends CoordinatorLayout.Behavior<Toolbar> {
+public class TransparentBehavior extends CoordinatorLayout.Behavior<Toolbar> {
 
     /**
      * 标题栏的高度
      */
     private int toolbarHeight = 0;
 
-    public TranslucentBehavior(Context context, AttributeSet attrs) {
+    public TransparentBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 

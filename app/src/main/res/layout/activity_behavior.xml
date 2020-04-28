@@ -37,7 +37,7 @@
         app:contentInsetStart="0dp"
         app:contentInsetStartWithNavigation="0dp"
         app:layout_anchor="@id/behavior_activity_bg"
-        app:layout_behavior=".TranslucentBehavior">
+        app:layout_behavior=".behavior.TransparentBehavior">
 
         <ImageView
             android:layout_width="40dp"
@@ -61,5 +61,5 @@
         android:layout_gravity="center_horizontal"
         android:src="@mipmap/ic_launcher"
         app:layout_anchor="@id/behavior_activity_bg"
-        app:layout_behavior=".TransferHeaderBehavior" />
+        app:layout_behavior=".behavior.AvatarBehavior" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

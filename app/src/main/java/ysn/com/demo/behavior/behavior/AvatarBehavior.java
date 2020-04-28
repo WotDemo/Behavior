@@ -1,4 +1,4 @@
-package ysn.com.demo.behavior;
+package ysn.com.demo.behavior.behavior;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -11,11 +11,11 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 /**
  * @Author yangsanning
- * @ClassName TransferHeaderBehavior
+ * @ClassName AvatarBehavior
  * @Description 改变头像位置的Behavior
  * @Date 2020/4/27
  */
-public class TransferHeaderBehavior extends CoordinatorLayout.Behavior<ImageView> {
+public class AvatarBehavior extends CoordinatorLayout.Behavior<ImageView> {
 
     /**
      * 处于中心时候原始X轴
@@ -27,12 +27,12 @@ public class TransferHeaderBehavior extends CoordinatorLayout.Behavior<ImageView
     private int originalY = 0;
 
 
-    public TransferHeaderBehavior(Context context, AttributeSet attrs) {
+    public AvatarBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
     @Override
-    public boolean layoutDependsOn(CoordinatorLayout parent, @NonNull ImageView child, View dependency) {
+    public boolean layoutDependsOn(@NonNull CoordinatorLayout parent, @NonNull ImageView child, @NonNull View dependency) {
         return dependency instanceof Toolbar;
     }
 
