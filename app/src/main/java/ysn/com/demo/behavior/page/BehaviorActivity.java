@@ -1,8 +1,10 @@
-package ysn.com.demo.behavior;
+package ysn.com.demo.behavior.page;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import ysn.com.demo.behavior.R;
 
 public class BehaviorActivity extends AppCompatActivity {
 
