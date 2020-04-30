@@ -12,7 +12,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 /**
  * @Author yangsanning
  * @ClassName AvatarBehavior
- * @Description 改变头像位置的Behavior
+ * @Description 头像随动
  * @Date 2020/4/27
  */
 public class AvatarBehavior extends CoordinatorLayout.Behavior<ImageView> {
@@ -25,7 +25,6 @@ public class AvatarBehavior extends CoordinatorLayout.Behavior<ImageView> {
      * 处于中心时候原始Y轴
      */
     private int originalY = 0;
-
 
     public AvatarBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);

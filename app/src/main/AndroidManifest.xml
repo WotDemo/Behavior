@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".page.BehaviorActivity" />
+        <activity android:name=".page.AvatarActivity" />
         <activity android:name=".page.FollowUpActivity" />
     </application>
 

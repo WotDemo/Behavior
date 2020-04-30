@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import ysn.com.demo.behavior.page.BehaviorActivity;
+import ysn.com.demo.behavior.page.AvatarActivity;
 import ysn.com.demo.behavior.page.FollowUpActivity;
 
 /**
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.main_activity_avatar_behavior:
-                startActivity(BehaviorActivity.class);
+                startActivity(AvatarActivity.class);
                 break;
             case R.id.main_activity_follow_up_behavior:
                 startActivity(FollowUpActivity.class);
