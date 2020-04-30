@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.FollowUpActivity">
+
+    <TextView
+        android:id="@+id/follow_up_activity_drag"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start|top"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="拖动我"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end|top"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="跟随者"
+        android:textColor="@android:color/white"
+        app:layout_behavior=".behavior.FollowUpBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

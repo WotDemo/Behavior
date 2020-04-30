@@ -9,6 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ysn.com.demo.behavior.page.BehaviorActivity;
+import ysn.com.demo.behavior.page.FollowUpActivity;
 
 /**
  * @Author yangsanning
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.main_activity_avatar_behavior:
                 startActivity(BehaviorActivity.class);
+                break;
+            case R.id.main_activity_follow_up_behavior:
+                startActivity(FollowUpActivity.class);
                 break;
             default:
                 break;

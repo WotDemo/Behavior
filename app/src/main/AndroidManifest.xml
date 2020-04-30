@@ -20,6 +20,7 @@
         </activity>
 
         <activity android:name=".page.BehaviorActivity" />
+        <activity android:name=".page.FollowUpActivity" />
     </application>
 
 </manifest>
